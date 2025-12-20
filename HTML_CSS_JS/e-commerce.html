@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="top">
+            <div class="brand">
+                <div class="logo"></div>Yobodobo Store
+            </div>
+            <div class="search"><input type="text" placeholder="Ürün Ara"></div>
+            <div class="muted" style="font-weight: 900;">Sepet 0</div>
+        </div>
+    </div>
+    <div class="crumbs">Ana Sayfa / Elektronik / Kulaklık / <b> Pulse Pro</b></div>
+
+    <div class="grid">
+        <div class="card">
+            <div class="gallery">
+                <div class="thumbs" id="thumbs">
+                    <div class="thumb active" data-full="./img/1.webp"><img src="./img/1.webp" alt="1"></div>
+                    <div class="thumb" data-full="./img/2.webp"><img src="./img/2.webp" alt="2"></div>
+                    <div class="thumb" data-full="./img/3.webp"><img src="./img/3.webp" alt="3"></div>
+                </div>
+                <div class="main">
+                    <span class="badge">Ücretsiz Kargo</span>
+                    <img id="mainImg" src="./img/1.webp" alt="1">
+                </div>
+            </div>
+        </div>
+        <div class="card sticky">
+            <h1>Pulse Pro Wireless Kulaklık</h1>
+            <div class="muted">ANC • 40 saat pil • Bluetooth 5.3</div>
+
+            <div class="rating">
+                <div class="stars">★★★★☆</div>
+                <div style="font-weight: 950;">4.6</div>
+                <div class="muted">(128 yorum)</div>
+            </div>
+            <div class="priceRow">
+                <div>
+                    <div class="price">₺2.499 <span class="off">%17</span></div>
+                    <div class="old">₺2.999</div>
+                </div>
+                <div class="stock"><b id="stock">Stok: 12</b><br>Bugün kargoda</div>
+            </div>
+            <div class="row">
+                <div>
+                    <div class="label">Renk</div>
+                    <div class="chips" id="colors">
+                        <div class="chip active" data-color="Siyah"> <span class="dot"
+                                style="background-color: #101827;"></span>Siyah</div>
+                        <div class="chip active" data-color="Mavi"> <span class="dot"
+                                style="background-color: #60A5FA;"></span>Mavi</div>
+                        <div class="chip active" data-color="Mor"> <span class="dot"
+                                style="background-color: #A68BFA;"></span>Mor</div>
+                    </div>
+                </div>
+                <div class="label">Beden
+                    <div class="chips" id="sizes">
+                        <div class="chip active" data-size="Standart">Standart</div>
+                        <div class="chip" data-size="Large">Large</div>
+                    </div>
+                </div>
+            </div>
+            <div class="qyt">
+                <button id="dec">-</button>
+                <input id="qyt" value="1" inputmode="numeric">
+                <button id="inc">+</button>
+            </div>
+            <div class="actions">
+                <button class="btn primary" id="add">Sepete Ekle</button>
+                <button class="btn goast" id="buy">Hemen Al</button>
+            </div>
+
+            <div class="hr"></div>
+            <div class="muted">
+                <b style="color:var(--text)">Kısa açıklama:</b> Temiz ses, güçlü ANC ve konforlu pedler. USB-C ile
+                hızlı şarj.
+            </div>
+        </div>
+
+
+        <div class="section card" style="padding: 16px;">
+            <h2>Benzer Ürünler</h2>
+            <div class="similiGrid" id="similar">
+                <div class="pCard">
+                    <div class="pImg"><img src="./img/1.webp" alt=""></div>
+                    <div class="pBody">
+                        <div class="pTitle">ZenPods</div>
+                        <div class="pMeta">True Wireless • ANC</div>
+                        <div class="pPrice">₺2.199</div>
+                    </div>
+                </div>
+                <div class="pCard">
+                    <div class="pImg"><img src="./img/2.webp" alt=""></div>
+                    <div class="pBody">
+                        <div class="pTitle">ZenPods</div>
+                        <div class="pMeta">True Wireless • ANC</div>
+                        <div class="pPrice">₺2.199</div>
+                    </div>
+                </div>
+                <div class="pCard">
+                    <div class="pImg"><img src="./img/3.webp" alt=""></div>
+                    <div class="pBody">
+                        <div class="pTitle">ZenPods</div>
+                        <div class="pMeta">True Wireless • ANC</div>
+                        <div class="pPrice">₺2.199</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section card" style="padding: 16px;">
+            <h2>Yorumlar</h2>
+            <div class="reviews">
+                <div class="rev">
+                    <div class="revTop">
+                        <div class="revName">Ayşe</div>
+                        <div class="revStart">★★★★★</div>
+                    </div>
+                    <div class="revText">Ses net, ANC metroda baya işe yarıyor. Pil de beklediğimden uzun gidiyor.</div>
+                </div>
+                <div class="rev">
+                    <div class="revTop">
+                        <div class="revName">Mehmet</div>
+                        <div class="revStart">★★★★☆</div>
+                    </div>
+                    <div class="revText">Konfor iyi. İlk gün biraz sıkı geldi ama sonra alışıyorsun. Mikrofon gayet
+                        temiz.
+                    </div>
+                </div>
+                <div class="rev">
+                    <div class="revTop">
+                        <div class="revName">Elif</div>
+                        <div class="revStart">★★★★☆</div>
+                    </div>
+                    <div class="revText">Fiyat/performans güzel. Mavi rengi çok hoş duruyor.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="js/product.js"></script>
+
+</body>
+
+</html>
