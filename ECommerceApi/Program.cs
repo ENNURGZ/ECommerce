@@ -1,6 +1,7 @@
 using System.IdentityModel.Tokens.Jwt;
 using System.Reflection.Metadata;
 using EcommerceApi.Models;
+using EcommerceApi.Data;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure;

@@ -4040,11 +4040,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ennur\\OneDrive\\Masaüstü\\ECommerce\\ECommerceApi\\ECommerceApi.csproj",
+      "projectUniqueName": "C:\\Users\\ennur\\OneDrive\\Belgeler\\GitHub\\ECommerce\\ECommerceApi\\ECommerceApi.csproj",
       "projectName": "ECommerceApi",
-      "projectPath": "C:\\Users\\ennur\\OneDrive\\Masaüstü\\ECommerce\\ECommerceApi\\ECommerceApi.csproj",
+      "projectPath": "C:\\Users\\ennur\\OneDrive\\Belgeler\\GitHub\\ECommerce\\ECommerceApi\\ECommerceApi.csproj",
       "packagesPath": "C:\\Users\\ennur\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ennur\\OneDrive\\Masaüstü\\ECommerce\\ECommerceApi\\obj\\",
+      "outputPath": "C:\\Users\\ennur\\OneDrive\\Belgeler\\GitHub\\ECommerce\\ECommerceApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wC7Fq5mfgkM=",
+  "dgSpecHash": "qH9uO+M/D3c=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ennur\\OneDrive\\Masaüstü\\ECommerce\\ECommerceApi\\ECommerceApi.csproj",
+  "projectFilePath": "C:\\Users\\ennur\\OneDrive\\Belgeler\\GitHub\\ECommerce\\ECommerceApi\\ECommerceApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ennur\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\ennur\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\9.0.3\\microsoft.aspnetcore.authentication.jwtbearer.9.0.3.nupkg.sha512",
